@@ -69,3 +69,5 @@ group by 1,2
 
 select avg(unique_sessions) as avg_sessions
 from unique_sessions_per_hour;
+
+Answer #5: 16.33 unique sessions/hour 
