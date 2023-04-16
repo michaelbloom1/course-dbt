@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_postgres__addresses
+    description: Table with information such as address, zipcode, and country. 
+  - name: stg_postgres__events
+    description: Table with information such as event, session, user, event type, page url, creation time, order, and product.
+  - name: stg_postgres__order_items
+    description: Table with information such as orders, products, and quantities.
+  - name: stg_postgres__orders
+    description: Table with information pertaining to users, addresses, orders, products, quantity, and shipping.
+  - name: stg_postgres__products
+    description: Table with information such as products, prices, and inventory levels.
+  - name: stg_postgres__promos
+    description: Table with information such as promos, discounts, and statuses.
+  - name: stg_postgres__users
+    description: Table with information such as names, emails, phone numbers, and account creation date.
